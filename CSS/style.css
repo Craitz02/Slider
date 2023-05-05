@@ -51,6 +51,7 @@ ul.slider li:target{
 
 ul.slider li p{
     text-align: center;
+
     
 }
 
@@ -68,13 +69,20 @@ ul.slider li p{
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    background-color: red;
+    background-color: #4e6a72;
     padding: 10px;
     width: 20px;
     height: 20px;
     font-size: 20px;
-    border-radius: 100%;
+    border-radius: 20%;
     
+}
+
+.menu li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    color: rgb(0, 0, 0);    
+    background-color: rgb(248, 244, 244);
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
 
